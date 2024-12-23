@@ -1,0 +1,191 @@
+.podarok h1 {
+    margin: 0;
+    position: relative;
+    top: 140px;
+    right: 0.5%;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 19.152px #FFF, 0px 0px 10.944px #FFF, 0px 0px 6.384px #FFF, 0px 0px 3.192px #FFF, 0px 0px 0.912px #FFF, 0px 0px 0.456px #FFF;
+    font-family: "Clicker Script";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: normal;
+}
+
+.gift img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 78px;
+    left: 66.5%;
+}
+
+.gift2 img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 12px;
+    left: 28.5%;
+}
+
+#chatBox {
+    width: 430px;
+    height: 300px;
+    border: none;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 40px;
+    left: 33.8%;
+}
+
+.message {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.user-message {
+    background-color: #3A3267;
+    align-self: flex-end;
+    color: #fff;
+    font-family: "SF Pro Display";
+    font-size: 16px; 
+}
+
+.santa-message {
+    background-color: #fff;
+    box-shadow: 0px 0px 9.022px 0px #FFF, 0px 0px 5.155px 0px #FFF, 0px 0px 3.007px 0px #FFF, 0px 0px 1.504px 0px #FFF, 0px 0px 0.43px 0px #FFF, 0px 0px 0.215px 0px #FFF;
+    align-self: flex-start;
+    color: black;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#inputBox {
+    width: 452px;
+    height: 40px;
+    border: 1px solid #FFF;
+    background: rgba(35, 31, 59, 0.00);
+    border-radius: 20px;
+    color: #FFF;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+    top: 40px;
+    left: 33.8%;
+    padding-left: 1.4%;
+    box-sizing: border-box;
+}
+
+#inputBox::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#sendButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 30.5%;
+    top: 51px;
+}
+
+#sendButton img {
+    width: 30px;
+    height: 30px;
+}
+
+.hiSanta img {
+    width: 57px;
+    height: 63px;
+    position: relative;
+    top: -18px;
+    left: 29%;
+}
+
+.santaMassange img {
+    position: relative;
+    top: -120px;
+    left: 6.5%;
+}
+
+.santaMassange h1 {
+    color: #000;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    top: -183px;
+    left: 8.5%;
+}
+
+.pump {
+    width: 90px;
+    height: 31px;
+    border-radius: 30px;
+    border: none;
+    background: #FFF;
+    position: relative;
+    top: -178px;
+    left: 66%;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+.pump:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.pump a {
+    color: #000;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+}
+
+.pump a:hover {
+    color: white;
+}
+
+.minigift img {
+    position: relative;
+    top: -207px;
+    left: 70%;
+}
+
+.gift3 {
+    position: relative;
+    top: 130px;
+    left: 88%;
+}
+
+.podval {
+    width: 100%;
+    height: 86px;
+    background: #1C192E;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 30px 30px 0px 0px;
+    z-index: 3;
+    position: relative;
+    top: 25%;
+}
